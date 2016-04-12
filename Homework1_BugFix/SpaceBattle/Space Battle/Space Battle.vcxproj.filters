@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Rocket.cpp">
+      <Filter>GameObject\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="RocketHolder.cpp">
+      <Filter>GameObject\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>GameObject\Fighter</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Irrlicht.cpp">
+      <Filter>Irrlicht</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvents.cpp">
+      <Filter>Irrlicht\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyHolder.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>TexturesManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rocket.h">
+      <Filter>GameObject\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="RocketHolder.h">
+      <Filter>GameObject\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>GameObject\Fighter</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="IrrLicht.h">
+      <Filter>Irrlicht</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Irrlicht</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEvents.h">
+      <Filter>Irrlicht\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Irrlicht</Filter>
+    </ClInclude>
+    <ClInclude Include="Irrklang.h">
+      <Filter>Irrklang</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyHolder.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>TexturesManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{39b9e200-e87a-451d-a1ba-447159c12138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Irrlicht">
+      <UniqueIdentifier>{3f16abab-3e40-4764-80a9-99a7096dc8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Irrlicht\Events">
+      <UniqueIdentifier>{bcf32bfe-09b8-4e66-b1e5-ff2c67d327e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Irrklang">
+      <UniqueIdentifier>{94ef1a5d-8073-431c-93a4-538ee6734ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{63da941b-62c2-4384-84d3-52ec2c323af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Fighter">
+      <UniqueIdentifier>{d0546574-f700-4013-9bd2-7782eb6b1129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemy">
+      <UniqueIdentifier>{4db7ebc0-1767-4b8d-b342-1899c2c800ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Rocket">
+      <UniqueIdentifier>{4a20b870-17da-4313-832e-1ab07f092a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{0506cbe8-e428-417a-9836-7c7f1ae37b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{d9277d59-a681-4542-96d8-65e5560636e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TexturesManager">
+      <UniqueIdentifier>{e3947371-89c8-4ce0-a37f-54316397e527}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
